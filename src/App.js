@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
 import devimg1 from "./webdev1.png";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import React, { Component } from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
         <div className="landingText">
           <div className="uspbuttonbox">
             <div className="uspButton">Front-End Developer</div>
-            <div className="uspButton">DBA</div>
             <div className="uspButton">Node.js</div>
+            <div className="uspButton">DBA</div>
           </div>
           <span>I'm Full-Stack Web Developer.</span>
           <p>
@@ -69,6 +70,7 @@ function App() {
           </span>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
