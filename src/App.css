@@ -50,12 +50,32 @@
   padding-top: 3%;
 }
 .keybox{
-  background-color: whitesmoke;
+  background-color: #2d2e32;
   width: 700px;
   height: 150px;
   margin-bottom: 2%;
   margin-left: 100px;
+  border-radius: 5px;
 }
+.keybox h2{
+  color: #46ba87;
+  padding: 30px 0 0 35px;
+}
+.keybox span{
+  padding: 0px 0 0 35px;
+  font-weight: 660;
+  font-size: 0.9em;
+  font-family: Roboto;
+}
+.keybox p {
+  padding: 10px 0 0 35px;
+  font-weight: 660;
+  font-size: 0.8em;
+  text-decoration: underline;
+  color: #5a5b5c;
+}
+
+
 *{
   color: white;
 }
@@ -68,10 +88,13 @@
 .uspbuttonbox{
   display: flex;
   justify-content: space-between;
-  width: 550px;
+  width: 510px;
   position: absolute;
   left: 100px;
   top: 275px;
+}
+.uspButton:hover{
+  cursor: pointer;
 }
 
 .uspButton{
@@ -79,6 +102,11 @@
   width: 160px;
   height: 35px;
   border-radius: 3px; 
+  cursor: pointer;
+}
+.uspButton:hover{
+  background-color: #28694b;
+  cursor: pointer;
 }
 
 .uspbuttonbox{
