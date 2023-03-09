@@ -1,0 +1,92 @@
+/*  */
+
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@480&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+*{
+    font-family: 'Roboto', bold;
+}
+
+
+.landing{
+  display: flex;
+  height: 500px;
+  background-color: #2d2e32;
+  color: aliceblue;
+}
+
+.landingText span{
+  font-size: 3em;
+  padding-top: 260px;
+  position: absolute;
+  padding-left: 100px;
+}
+
+.landingText p{
+  margin: auto;
+  padding-top: 330px;
+  padding-left: 100px;
+}
+
+.landing img{
+  height: 500px;
+  position: absolute;
+  right: 100px;
+}
+
+.aboutme{
+  height: 700px;
+  background-color: #25262a;
+  display: flex;
+}
+.uspbox{
+  display: flexbox;
+  padding-top: 3%;
+}
+.keybox{
+  background-color: whitesmoke;
+  width: 700px;
+  height: 150px;
+  margin-bottom: 2%;
+  margin-left: 100px;
+}
+*{
+  color: white;
+}
+.aboutText{
+  margin-right: 5%;
+  margin-left: 3%;
+  padding-top: 5%;
+}
+
+.uspbuttonbox{
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  position: absolute;
+  left: 100px;
+  top: 275px;
+}
+
+.uspButton{
+  background-color: #4dba87;
+  width: 160px;
+  height: 35px;
+  border-radius: 3px; 
+}
+
+.uspbuttonbox{
+  height: 35px;
+  line-height: 35px;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  color: antiquewhite;
+
+}

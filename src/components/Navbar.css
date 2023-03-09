@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@480&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+.navbar{
+    display: flex;
+    background-color: #2d2e32;
+    justify-content: flex-end;
+    height: 65px;
+}
+
+.navbar span{
+    color: white;
+    font-size: 1.2em;   
+    padding-right: 2%; 
+    padding-top: 1%;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.navbar:hover span{
+    cursor: pointer;
+}
+
+
+
+
