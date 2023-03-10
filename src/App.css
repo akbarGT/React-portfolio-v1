@@ -118,3 +118,38 @@
   color: antiquewhite;
 
 }
+
+/* Projects */
+
+.projects{
+  height: 600px;
+  width: 100%;
+  background-color:#2d2e32;
+  display: flex;
+  justify-content: center;
+}
+
+.projects h1{
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+  padding-top: 0px;
+}
+.projects img{
+  mix-blend-mode: multiply;
+  align-items: center;
+  height: 200px;
+  /* margin-left: 45%; */
+}
+
+.projectsGrid{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: 15%;
+}
+.projectid{
+  padding-right: 30%;
+  width: auto;
+  width: 200px;
+}

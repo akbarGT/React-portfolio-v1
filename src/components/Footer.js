@@ -1,9 +1,12 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <h1 style={{ color: "black" }}>Footer</h1>
+    <div className="footer">
+      <h3 style={{ color: "white" }}>
+        COPYRIGHT © 2023 AKBAR AHMED - ALL RIGHTS RESERVED.
+      </h3>
     </div>
   );
 };

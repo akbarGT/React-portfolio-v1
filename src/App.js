@@ -1,9 +1,11 @@
 import devimg1 from "./webdev1.png";
+import projectImg from "./projects.gif";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -43,14 +45,16 @@ function App() {
             <p>2 Projects.</p>
           </div>
         </div>
-        <div href="#about" className="aboutText">
+        <div id="about" className="aboutText">
           <h4>About Me:</h4>
-          <h1>Hello, I'm Akbar Ahmed</h1>
+          <h1 style={{ marginBottom: "50px" }}>Hello, I'm Akbar Ahmed</h1>
           <span
             style={{
               color: "#777777",
               fontWeight: "700",
               letterSpacing: "1px",
+              fontSize: "1.1em",
+              paddingTop: "90px",
             }}
           >
             A skilled Web developer specialising in React, Node.js, and
@@ -70,7 +74,24 @@ function App() {
           </span>
         </div>
       </div>
-      <Footer></Footer>
+      <div className="projects">
+        <div className="projectHeading">
+          <img src={projectImg} alt="" />
+          <h1>Projects</h1>
+        </div>
+        <div className="projectsGrid">
+          <div className="projectid">
+            <h2>Cloudy Notes</h2>
+          </div>
+          <div className="projectid">
+            <h2>EnVn</h2>
+          </div>
+          <div className="projectid">
+            <h2>IzuNews</h2>
+          </div>
+        </div>
+      </div>
+      <Footer id="" />
     </div>
   );
 }
