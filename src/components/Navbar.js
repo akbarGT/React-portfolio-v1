@@ -23,14 +23,16 @@ const Navbar = () => {
         >
           AKBAR AHMED.
         </span>
-        <span>&lt; Home/ &gt; </span>
-        <span href="about" onClick={handleClickScroll}>
-          {" "}
-          About Me{" "}
-        </span>
-        <span> Projects </span>
-        <span> Certificates </span>
-        <span> Download CV </span>
+        <ul>
+          <li>&lt; Home /&gt; </li>
+          <li href="about" onClick={handleClickScroll}>
+            {" "}
+            About Me{" "}
+          </li>
+          <li> Projects </li>
+          <li> Certificates </li>
+          <li> Download CV </li>
+        </ul>
       </div>
     </div>
   );
