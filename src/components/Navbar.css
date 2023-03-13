@@ -7,6 +7,7 @@
 
 /* font-family: 'Inter', sans-serif; */
 
+
 .navbar{
     display: flex;
     background-color: #2d2e32;
@@ -17,17 +18,18 @@
 .navbar ul{
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    width: auto;
-    width: 35%;
+    justify-content: flex-end;
+    padding-left: 100px;
 }
 .navbar li{
     color: white;
     font-size: 1.2em;   
-    padding-right: 2%; 
+    padding-right: 8%; 
     padding-top: 1%;
     text-transform: capitalize;
     font-weight: 600;
+
+    white-space: nowrap;
 }
 
 .navbar span{
