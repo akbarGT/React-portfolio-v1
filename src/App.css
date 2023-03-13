@@ -12,16 +12,6 @@
 *{
     font-family: 'Roboto', bold;
 }
-/*  */
-
-@media (max-width: 1000px) {
-  .navbar ul, .navbar li {
-    display: none;
-  }
-}
-
-/*  */
-
 
 .landing{
   display: flex;
@@ -46,7 +36,7 @@
 .landing img{
   height: 500px;
   position: absolute;
-  right: 100px;
+  right: 5%;
 }
 
 .aboutme{

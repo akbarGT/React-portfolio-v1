@@ -6,7 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /* font-family: 'Inter', sans-serif; */
+/*  */
 
+@media (max-width: 1000px) {
+    .navbar ul, .navbar li {
+      display: none;
+    }
+  }
+  
+  /*  */
 
 .navbar{
     display: flex;
