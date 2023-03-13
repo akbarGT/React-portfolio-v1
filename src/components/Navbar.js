@@ -5,7 +5,7 @@ const Navbar = () => {
   const handleClickScroll = () => {
     const element = document.getElementById("about");
     if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
+      // 👇Smooth Scroll to the section
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
