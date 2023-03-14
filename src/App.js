@@ -1,5 +1,6 @@
 import devimg1 from "./webdev1.png";
 import projectImg from "./projects.gif";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import React, { Component } from "react";
@@ -29,25 +30,40 @@ function App() {
       </div>
       <div className="aboutme">
         <div className="uspbox">
-          <div className="keybox">
-            <h2>UI/UX Design</h2>
-            <span>I create design products with unique ideas.</span>
-            <p>2 Projects.</p>
+          <div className="titleProjects">
+            <h2>Projects: </h2>
           </div>
           <div className="keybox">
-            <h2>Web Design</h2>
-            <span>I develop Front-End with coding super smooth.</span>
-            <p>2 Projects.</p>
+            <h2>Cloudy Notes</h2>
+            <p>
+              MERN Stack, CRUD Application Authenticated With JWT Token For
+              Secure Login, To Create & Manage Notes.
+            </p>
+            <span>View Project -&gt; </span>
           </div>
           <div className="keybox">
-            <h2>Mobile App</h2>
-            <span>I develop cross-platform rnobile applications.</span>
-            <p>2 Projects.</p>
+            <h2>EnVn</h2>
+            <p>
+              Envn is an e-POS App it makes billing across Mobile/Desktop Easy &
+              allows you to manage your inventory completely Online.
+            </p>
+            <span>View Project -&gt;</span>
+          </div>
+          <div className="keybox">
+            <h2>IzuNews</h2>
+            <p>
+              MERN Stack News Website fetches the latest news article using
+              News.org API & displays news according to the category selected by
+              the user.
+            </p>
+            <span>View Project -&gt;</span>
           </div>
         </div>
         <div id="about" className="aboutText">
-          <h4>About Me:</h4>
-          <h1 style={{ marginBottom: "50px" }}>Hello, I'm Akbar Ahmed</h1>
+          <h1>About Me:</h1>
+          <h1 style={{ marginBottom: "40px", paddingTop: "20px" }}>
+            Hello, I'm Akbar Ahmed
+          </h1>
           <span
             style={{
               color: "#777777",
@@ -65,6 +81,7 @@ function App() {
             components that provide an exceptional user experience.
             <br />
             <br />
+            <br />
             Additionally, my knowledge of Node.js, a robust runtime environment
             for JavaScript, enables me to build efficient and scalable
             server-side applications that can handle heavy traffic. As a
@@ -74,7 +91,7 @@ function App() {
           </span>
         </div>
       </div>
-      <div className="projects">
+      {/* <div className="projects">
         <div className="projectHeading">
           <img src={projectImg} alt="" />
           <h1>Projects</h1>
@@ -90,7 +107,7 @@ function App() {
             <h2>IzuNews</h2>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer id="" />
     </div>
   );

@@ -48,6 +48,10 @@
   display: flexbox;
   padding-top: 3%;
 }
+.titleProjects h2{
+  padding-left: 105px;
+  padding-bottom: 0px;
+}
 .keybox{
   background-color: #2d2e32;
   width: 700px;
@@ -58,20 +62,22 @@
 }
 .keybox h2{
   color: #46ba87;
-  padding: 30px 0 0 35px;
+  padding: 20px 0 0 35px;
 }
 .keybox span{
   padding: 0px 0 0 35px;
   font-weight: 660;
   font-size: 0.9em;
-  font-family: Roboto;
-}
-.keybox p {
-  padding: 10px 0 0 35px;
-  font-weight: 660;
-  font-size: 0.8em;
   text-decoration: underline;
   color: #5a5b5c;
+ 
+}
+.keybox p {
+  padding: 0px 0 0 35px;
+  font-weight: 760;
+  font-size: 0.9em;
+  padding-right: 3%;
+  /* font-family: Roboto; */
 }
 
 
@@ -79,9 +85,13 @@
   color: white;
 }
 .aboutText{
-  margin-right: 5%;
-  margin-left: 3%;
-  padding-top: 5%;
+  margin-right: 7%;
+  margin-left: 4%;
+  padding-top: 3.1%;
+}
+
+.aboutText h1{
+  font-size: 1.5em;
 }
 
 .uspbuttonbox{
@@ -151,4 +161,8 @@
   padding-right: 30%;
   width: auto;
   width: 200px;
+}
+
+.keybox span:hover{
+ cursor: pointer;
 }

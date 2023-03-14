@@ -5,6 +5,7 @@
     height: 150px;
     padding-top: 0px;
     margin-top: 0px;
+    position: relative;
 }
 .footer h3{
     text-align: left;
@@ -12,4 +13,20 @@
     position: absolute;
     left: 100px;
     padding-top: 50px;
+}
+
+
+.socials{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+}
+.socials img{
+    height: 55px;
+    padding-right: 15%;
+    margin: auto;
+}
+
+.socials img:hover{
+    cursor: pointer;
 }
